@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.foody.databinding.FragmentJokeBinding
 
-class DashboardFragment : Fragment() {
+class JokeFragment : Fragment() {
 
     private lateinit var binding: FragmentJokeBinding
 

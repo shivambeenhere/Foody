@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/navigation_favorites"
-        android:name="com.example.foody.ui.joke.DashboardFragment"
+        android:name="com.example.foody.ui.favorites.FavoritesFragment"
         android:label="@string/title_favorites"
         tools:layout="@layout/fragment_joke" />
 
     <fragment
         android:id="@+id/navigation_joke"
-        android:name="com.example.foody.ui.favorites.FavoritesFragment"
+        android:name="com.example.foody.ui.joke.JokeFragment"
         android:label="@string/title_joke"
         tools:layout="@layout/fragment_favorites" />
 </navigation>
